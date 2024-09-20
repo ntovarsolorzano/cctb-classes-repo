@@ -1,0 +1,11 @@
+pwd 
+cd Lab-semanticElements #That's my repo
+git clone $URL
+git add . 
+git status
+git commit
+
+git remote remove origin
+git remote add origin {my_repo.git}
+git push -u origin main
+git branch -M main
